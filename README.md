@@ -1,16 +1,90 @@
-# React + Vite
+# 🌤️ Weather Now
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern weather application for outdoor enthusiasts with real-time data, smart search, and activity recommendations.
 
-Currently, two official plugins are available:
+**Live Demo**: [https://zts42k-5173.csb.app/](https://zts42k-5173.csb.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- 🔍 **Smart Search** - Real-time city autocomplete with recent searches
+- 🌡️ **Live Weather Data** - Temperature, humidity, wind, visibility, UV index
+- 🎯 **Activity Insights** - Personalized recommendations for outdoor activities
+- 📍 **Auto Location** - Detects your location automatically
+- 🎨 **Beautiful UI** - Dynamic backgrounds and smooth animations
+- 📱 **Responsive** - Works on mobile, tablet, and desktop
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Quick Start
 
-## Expanding the ESLint configuration
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/weather-now.git
+cd weather-now
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+Visit `http://localhost:5173` to see the app.
+
+### Build for Production
+```bash
+npm run build
+```
+
+## 🛠️ Tech Stack
+
+- **React 18** - Frontend framework
+- **Tailwind CSS** - Styling
+- **Axios** - API requests
+- **Lucide React** - Icons
+- **Vite** - Build tool
+
+## 📦 APIs Used
+
+- [Open-Meteo Weather API](https://open-meteo.com/) - Weather data 
+- [Open-Meteo Geocoding API](https://open-meteo.com/) - City search
+
+## 📁 Project Structure
+```
+src/
+├── components/
+│   ├── SearchBar.jsx          # Search with autocomplete
+│   ├── WeatherCard.jsx        # Main weather display
+│   ├── WeatherDetails.jsx     # Detailed metrics
+│   └── ActivityInsights.jsx   # Activity recommendations
+├── utils/
+│   └── weatherHelpers.js      # Helper functions
+├── App.jsx                    # Main component
+└── main.jsx                   # Entry point
+```
+
+## 🌟 Key Features Explained
+
+### Smart Search
+- Type any city name to get instant suggestions
+- Click popular cities for quick access
+- Recent searches saved automatically
+
+### Weather Display
+- Current temperature with "feels like" reading
+- High/Low temperature with visual indicator
+- Animated weather icons (30+ conditions)
+- Day/Night detection
+
+### Activity Insights
+- Temperature-based recommendations
+- Wind, rain, and visibility alerts
+- Clothing advice
+- Suitable outdoor activities
+
+## 👨‍💻 Author
+
+GitHub: [@aagmannag](https://github.com/aagmannag)
+
+---
+
+**Built with ❤️ for outdoor enthusiasts**
