@@ -2,7 +2,7 @@
 
 A modern weather application for outdoor enthusiasts with real-time data, smart search, and activity recommendations.
 
-**Live Demo**: [https://zts42k-5173.csb.app/](https://zts42k-5173.csb.app/)
+**Live Demo**: https://weather-now-plum-three.vercel.app/
 
 ## ✨ Features
 
