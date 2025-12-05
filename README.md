@@ -3,6 +3,7 @@
 A modern weather application for outdoor enthusiasts with real-time data, smart search, and activity recommendations.
 
 **Live Demo**: https://weather-now-plum-three.vercel.app/
+**Live on AWS S3**: http://aagmannag-weather-now.s3-website.ap-south-1.amazonaws.com/
 
 ## ✨ Features
 
